@@ -1,0 +1,9 @@
+formatter: markdown table
+header-from: doc.tf
+sort:
+  enabled: true
+  by:
+    - required
+settings:
+  indent: 2
+  required: true
