@@ -43,6 +43,12 @@ variable "instance_name" {
   default     = "test-"
 }
 
+variable "instance_type" {
+  description = "Instance type prefix"
+  type        = string
+  default     = "dev-"
+}
+
 variable "instance_count" {
   description = "Number of instances to create"
   type        = number
