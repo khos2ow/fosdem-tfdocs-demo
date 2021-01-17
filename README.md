@@ -34,6 +34,7 @@ Terraform modules with [terraform-docs] using [terraform-docs/gh-actions].
 | extra\_tags | Additional tags | `map(string)` | `{}` | no |
 | instance\_count | Number of instances to create | `number` | `1` | no |
 | instance\_name | Instance name prefix | `string` | `"test-"` | no |
+| instance\_type | Instance type prefix | `string` | `"dev-"` | no |
 
 ## Outputs
 
