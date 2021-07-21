@@ -4,6 +4,26 @@ This is a demo project to show how to automatically generate documentations of
 Terraform modules with [terraform-docs] using [terraform-docs/gh-actions].
 
 <!--- BEGIN_TF_DOCS --->
+## Prerequisites
+
+- [Terraform](https://www.terraform.io) v0.12+
+- [terraform-docs](https://github.com/terraform-docs/terraform-docs) v0.10+
+- [terraform-docs/gh-actions](https://github.com/terraform-docs/gh-actions) v0.4+
+
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 2.20.0 |
+| <a name="requirement_consul"></a> [consul](#requirement\_consul) | >= 2.4.0 |
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 2.20.0 |
+| <a name="provider_consul"></a> [consul](#provider\_consul) | >= 2.4.0 |
+
 ## Modules
 
 No modules.
